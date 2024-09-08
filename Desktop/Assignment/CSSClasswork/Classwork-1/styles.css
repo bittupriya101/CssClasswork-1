@@ -1,0 +1,98 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styles */
+  body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+   
+    line-height: 1.6;
+    background-color: #fdf9f9;
+    color:black;
+    padding: 20px;
+  }
+  
+  /* Menu Styles */
+  .menu {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: burlywood;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 0.2em;
+  }
+  
+  .established {
+    text-align: center;
+    font-size: 1.2em;
+    color: black;
+    margin-bottom: 1em;
+  }
+  
+  /* Line Separators */
+  hr {
+    border: 0;
+    height: 2px;
+    background-color: red;
+    margin: 20px 0;
+  }
+  
+  hr.bottom-line {
+    margin-top: 40px;
+    border: red;
+    height: 2px;
+  }
+  
+  /* Section Headers */
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-bottom: 0.5em;
+    text-transform: none;
+  }
+  
+  /* Menu Items */
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .flavor,
+  .dessert {
+    font-size: 1.1em;
+    color: #444;
+  }
+  
+  .price {
+    font-size: 1.1em;
+    color: #333;
+  }
+  
+  /* Footer Styles */
+  footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color:black;
+  }
+  
+  footer a {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
